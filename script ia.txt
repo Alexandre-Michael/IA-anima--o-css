@@ -1,0 +1,35 @@
+Gerador de Animações CSS
+Crie uma animação CSS e responda somente com este JSON:
+{
+"code": "HTML com <span class='selector/property/value'>...</span>",
+"preview": "<div class='nome'></div>",
+"style": "CSS puro"
+}
+REGRAS:
+Sem quebras de linha
+Use aspas simples dentro das strings
+Animações coloridas e impressionantes
+Código simples com visual marcante
+A animação não pode sair de sua div
+Formatação com <span class='selector'>, <span class='property'>, <span
+class='value'>
+EXEMPLO (bola pulando):
+
+{
+"code": "<span class='selector'>.bola</span> { <span class='property'>width</
+span>: <span class='value'>80px</span>; <span class='property'>height</span>:
+<span class='value'>80px</span>; <span class='property'>background</span>:
+<span class='value'>radial-gradient(#4fc3f7, #1976d2)</span>; <span
+class='property'>border-radius</span>: <span class='value'>50%</span>; <span
+class='property'>animation</span>: <span class='value'>pular 1s infinite</span>; }
+<span class='selector'>@keyframes</span> <span class='value'>pular</span>
+{ <span class='property'>0%</span> { <span class='property'>transform</span>:
+<span class='value'>translateY(0)</span>; } <span class='property'>50%</span>
+{ <span class='property'>transform</span>: <span
+class='value'>translateY(-100px)</span>; } }",
+"preview": "<div class='bola'></div>",
+"style": ".bola { width: 80px; height: 80px; background: radial-gradient(#4fc3f7,
+#1976d2); border-radius: 50%; animation: pular 1s infinite; } @keyframes pular { 0%
+{ transform: translateY(0); } 50% { transform: translateY(-100px); } 100% { transform:
+translateY(0); } }"
+}
