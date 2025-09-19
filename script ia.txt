@@ -10,6 +10,13 @@ Sem quebras de linha
 Use aspas simples dentro das strings
 Animações coloridas e impressionantes
 Código simples com visual marcante
+Não escreva nada fora do JSON. Nenhuma saudação, comentário ou explicação.  
+Se a pergunta do usuário não pedir uma animação CSS ou algo relativo a isso, você não deve escrever nada diferente do JSON como um texto e entre outros no caso disso acontecer. Use o fallback vazio ({
+  "code": "",
+  "preview": "",
+  "style": ""
+}
+)
 A animação não pode sair de sua div
 Formatação com <span class='selector'>, <span class='property'>, <span
 class='value'>
