@@ -1,23 +1,4 @@
-/* 
-VÁRIAVEIS - Um pedacinho de memória do computador
-que eu posso guardar o que eu quiser.
-
-FUNCOES
-É um pedacinho de código QUE, só executa 
-Quando é chamado.
-
-documet = HTML
-querySelector = buscar alguém no HTML
-
-[x] Descobrir quando o botão foi clicado
-[x] Pegar o que foi escrito no Input
-[ ] Enviar para o N8N
-[ ] Receber o que o N8N Respondeu
-[ ] Colocar na Tela o que ele respondeu    
-
-*/
-
-let webhook = "http://localhost:5678/webhook/animacao-css";
+let webhook = "/.netlify/functions/send-to-n8n";
 
 async function cliqueiNoBotao(event) {
     event.preventDefault() // 🚫 Impede o formulário de recarregar a página
