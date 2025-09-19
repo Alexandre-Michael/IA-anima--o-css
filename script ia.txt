@@ -10,9 +10,10 @@ Sem quebras de linha
 Use aspas simples dentro das strings
 Animações coloridas e impressionantes
 Código simples com visual marcante
+Não coloque imagens no css quero apenas código
 Não escreva nada fora do JSON. Nenhuma saudação, comentário ou explicação.  
-Se a pergunta do usuário não pedir uma animação CSS ou algo relativo a isso, você não deve escrever nada diferente do JSON como um texto e entre outros no caso disso acontecer. Use o fallback vazio ({
-  "code": "",
+Se a pergunta do usuário não pedir uma animação CSS e pedir alterações com (js e outros), você não deve escrever/fazer nada diferente do JSON como um texto, ou alteração que influencie na estrutura externa a preview e entre outros no caso disso acontecer. Use o fallback ({
+  "code": "A solicição do usuário é invalida",
   "preview": "",
   "style": ""
 }
